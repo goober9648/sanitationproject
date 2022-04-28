@@ -1,0 +1,252 @@
+/* override code*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    height: auto;
+    background: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 64px;
+}
+
+
+/* Navigation */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.5em;
+    width: 100%;
+    padding-top: 56px;
+    color:  #000000;
+    cursor: pointer;
+}
+
+
+div.logo {
+    display: flex;
+    justify-content: space-between;
+    float:left;
+    width: auto;
+}
+
+.logo.navbar {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+li.header-nav-item {
+    display: flex;
+    display: inline-block;
+    float:right;
+}
+
+
+
+
+/****** stuck here on moving the main menu items button ******/
+.container {
+    display: flex;
+}
+
+
+.container li a {
+    text-decoration: none;
+}
+  
+    
+ /* Howard Beach Clean-up Picture */
+
+ .howard-beach-img {
+    background-size: cover;
+    object-fit: cover;
+     width: 1440px;
+     height: auto;
+  }
+
+  div.howard-beach-img {
+      clear: both;
+
+  }
+
+  
+/* Achievements Section */
+
+  div.full-width {
+      color: white;
+      font-size: 0.75rem;
+      background-color: #00A862;
+      padding-left: 15px;
+  }
+
+  h1.full-width {
+      font-size: 4.0625rem;
+
+  }
+
+ .full-width li {
+    padding-left: 55px;
+}
+
+
+.full-width li {
+    position: relative;
+    list-style-type: circle;
+    margin-left: 50px;
+    padding-left: 0;
+   
+}
+
+/* Graph */
+
+div.graph {
+    display: flex;
+    align-items: center;
+   object-fit: cover;
+   padding: 20px 20px;
+  
+}
+
+/* Let's Make a Change Section */
+
+.change {
+    padding-left: 20px;  
+}
+
+
+div.card {
+   display: inline-block; 
+    width: 240px;
+    padding-left: 100px;
+    
+}
+
+.card img {
+    width: 240px;
+    object-fit: cover;
+    padding-right: 15px;
+    
+  
+}
+
+.card h3 {
+    width: 240px;
+    padding: 15px 0;
+}
+
+.card p {
+    width: 240px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+
+div.change-btn a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+
+div.change-btn img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+}
+
+
+/* Media */
+
+/* added code by Chris */
+.left{
+    float:left;
+}
+.center{
+    display:inline-block;
+    margin: 0 auto;
+}
+.right{
+    float:right;
+}
+.container{
+    text-align:center;
+}
+.container > div{
+    width: 150px;
+    height: 150px;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.div.overlay-text{
+    position:absolute;
+    
+    width:100px;
+    height:100px;
+}
+.div.change-btn{
+
+    
+    width:100px;
+    height:100px;
+}
+.text{
+    width: 50px;
+    height:50px;
+    position:absolute;
+    top:2
+    text-decoration: none;
+    color: black;
+ 
+}
+.background{
+    width:25px;
+    height:50px;
+     text-decoration: none;
+    color: black;
+
+}
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
